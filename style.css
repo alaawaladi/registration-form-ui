@@ -1,0 +1,202 @@
+*{
+    box-sizing:border-box ;
+   
+}
+body{
+    background-color: #f6f6f6ff;
+    font-size: 13px;
+
+}
+.container{
+    width: 800px;
+    height: 600px;
+    background-color: #ffffffff;
+    margin: 30px auto;
+    border-radius:3%;
+}
+.right_side {
+    background-color: #ffd500ff;
+    width: 300px;
+    height: 600px;
+    float: left;
+    clear: both;
+    border-radius: 3% 0 0 3%;
+}
+.right_side img {
+    position: relative;
+    left: 23%;
+    top: 17%;
+}
+.right_side h3{
+position: relative;
+top: 165px;
+left: 60px;
+}
+.right_side p {
+    position: relative;
+    top: 170px;
+    left: 20px;
+    font-size: 12px;
+}
+.right_side span{
+    position: relative;
+    top: 170px;
+    left: 55px;
+    font-size: 12px;
+}
+.logo {
+    position: relative;
+    left: 121px;
+    top: 200px;
+   font-size: 1.5em;
+    color: #ffd500ff;
+    background-color: #383838ff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.logo span {
+    position: relative;
+    top: -15%;
+     left: 11px;
+     font-size: 2em;
+     font-weight: 200;
+}
+
+.formes input
+{   
+    margin: 30px 20px 0 0;
+   padding: 5px;
+   position: relative;
+   
+   
+}
+
+.formes span{
+    margin: 30px;
+    padding: 5px;
+}
+
+input[type ="text"] {
+    background: none;
+    border: none;
+    background-color: #f5f8f9ff;
+    border: .5px solid #f5f8f9ff;
+    width: 30%;
+    margin-left: 20px;
+    
+}
+
+.members span{
+    margin-left: 30px;
+
+}
+#one {
+    position: relative;
+    left: 30px;
+}
+#tow{
+    position: relative;
+    left: 20px;
+}
+#there{
+    position: relative;
+    left: -20px;
+}
+input[type = "email"]{
+    position: relative;
+    left: 41px;
+    width: 30%;
+    background: none;
+    border: none;
+    background-color: #f5f8f9ff;
+    border: .5px solid #f5f8f9ff;
+}
+input[type ="date"]{
+    position: relative;
+    left: -18px;
+    width: 30%;
+    background: none;
+    border: none;
+    background-color: #f5f8f9ff;
+    border: .5px solid #f5f8f9ff;
+}
+.finale button{
+    margin: 30px auto;
+    position: relative;
+    left: 20%;
+    top: 97px;
+    margin: 10px;
+    padding: 5px;
+    width:10%;
+    cursor: pointer;
+}
+.finale button[type ="submit"]{
+    background-color: #60e6c5ff;
+    border: none;
+    border-radius: 3px;
+    color: white;
+}
+.finale button[type ="reset"]{
+    background: none;
+    border: none;
+    border-radius: 3px;
+    background-color: #f5f8f9ff;
+}
+.formes input[type = "radio"]{
+    position: relative;
+    left: 34px;
+    display: inline-flexbox;
+    margin: 20px 5px 0 0;
+    color: #f5f8f9ff;
+    visibility: hidden;
+}
+
+.fa-mars{
+    
+    position: relative;
+    background: #f5f8f9ff;
+    color: #d1d9e2ff;
+    font-size: 20px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.fa-venus
+{ 
+    position: relative;
+    background: #f5f8f9ff;
+    color: #d1d9e2ff;
+    font-size: 20px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.fa-calendar-o{
+    position: relative;
+    left: -70px;
+    color: #c9d3dcff;
+}
+.fa-credit-card
+{
+    position: relative;
+    background: #c7c7c7ff;
+    color: white;
+    font-size: 20px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center; 
+}
+.members{
+    position: relative;
+    top: 36px;
+}
+.members input{
+    
+}
